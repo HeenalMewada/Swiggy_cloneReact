@@ -1,0 +1,115 @@
+.bestplaces .rest_cities {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 16px 16px;
+    gap: 10px;
+
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityname {
+
+    /* border: 1px solid black; */
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+    width: 159px;
+    height: 42px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.placestoeat {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 193px;
+    height: 76px;
+    height: auto;
+}
+
+.bestplacesheading {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 150px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.cuisinesnearme {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px 16px 16px; */
+    gap: 10px;
+
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestplacescuisines {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 193px;
+    height: 76px;
+    height: auto;
+}
+
+.cuisinesheading {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 150px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.exploreeveryrestaurant{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 16px 16px;
+    gap: 10px;
+    height: auto;
+    margin-left: 150px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.explorerestaurant {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 193px;
+    height: 76px;
+    text-align: center;
+
+    
+}
+/* a{
+    color: rgba(2, 6, 12, 0.75);
+} */
+.exploreeveryrestaurantheading{
+     font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 150px;
+    color: rgba(2, 6, 12, 0.92);
+}
+@media (max-width: 1200px)and (min-width:320px){
+    
+    .rest_cities{
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+}

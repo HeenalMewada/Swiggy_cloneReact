@@ -1,0 +1,285 @@
+.container {
+    background-color: rgb(255, 82, 0);
+
+
+}
+
+.header_section {
+    /* padding-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.header_section .img_container img {
+    width: 160px;
+    height: 48px;
+}
+
+.header_section .header_links {
+    height: 53px;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-gap: 32px;
+
+
+}
+
+.header_section .header_links .link {
+    color: white;
+    text-decoration: none;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+
+.btn1 {
+    display: flex;
+    /* height: 50px; */
+    padding: 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+
+
+.btn2 {
+    display: flex;
+    /* height: 54px; */
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #fff;
+    cursor: pointer;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    background-color: black;
+}
+
+.middle_section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     
+}
+
+.middle_section .image1 {
+    height: 450px !important;
+    width: 250px !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.middle_section .image2 {
+    height: 450px !important;
+    width: 250px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header_heading {
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    /* letter-spacing: -0.3px; */
+    /* line-height: 56px; */
+}
+
+.input_conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input2 {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 16px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+    padding-left: 10px;
+     position: relative;
+}
+
+
+.input1 {
+    border-radius: 16px;
+    line-height: normal;
+    border: none;
+    height: 45px;
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    padding-left: 60px;
+    position: relative;
+
+}
+.location-icon{
+    position: absolute;
+    left: 21%;
+}
+.search-icon {
+     position: absolute;
+    left: 77%;
+}
+
+.images_of_swiggy {
+    height: 300px;
+    width: 350px;
+}
+
+.footer_of_header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Responsive deign */
+@media (max-width: 1200px)and (min-width:320px){
+  /* Header layout: stack items vertically */
+  .header_section {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+  }
+.container{
+  max-width: 100%;
+  background-color: rgb(255, 82, 0);
+}
+  /* Logo size */
+  .header_section .img_container img {
+    max-width: 100%;
+    max-height: auto;
+  }
+.header_heading {
+  font-size: 7px;
+  margin-top: 2px;
+}
+  /* Header links: vertical list */
+  .header_links {
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+    
+  }
+
+  /* Buttons: smaller padding and font */
+  .btn1, .btn2 {
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  /* Middle section: stacked images and heading */
+  .middle_section {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  /* Images: responsive sizing */
+  .image1, .image2 {
+    position: static;
+    max-width: 20%;
+    /* height: auto !important; */
+    /* max-width: 200px; */
+  }
+
+  .input1,.input2{
+    width: 60%;
+    
+  }
+
+  .location-icon, .search-icon{
+    display: none;
+  }
+  /* Header heading: smaller font size and width */
+  .header_heading {
+    font-size: 16px;
+    width: 90%;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  /* Input container: stack inputs vertically */
+  .input_conatiner {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Search input: full width */
+  .input2 {
+    width: 100%;
+  }
+
+  /* Icons inside input container */
+  .location-icon, .search-icon {
+    left: 10px; /* Adjust as needed */
+  }
+
+  /* Footer: stack images vertically */
+  .footer_of_header {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  /* Footer images: full width */
+  .images_of_swiggy {
+    width: 100%;
+    height: auto;
+  }
+}

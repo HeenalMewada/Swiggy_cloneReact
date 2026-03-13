@@ -1,0 +1,56 @@
+.Menucard_container {
+    position: relative;
+    margin: 24px 16px 16px 16px;
+}
+.MenuCardTitle{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.75);
+
+}
+.openContainer{
+    width: 100%;
+}
+.openMenucontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuTitle{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(2, 6, 12, 0.75);
+
+}
+.menuBtn{
+    /* font-size: 30px;
+    font-weight: 700;    */
+        border: 1px solid transparent;
+        background-color: white;
+}
+.vegContainer{
+    width: 100%;
+}
+.vegbtncontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.titlebutton{
+    width: 100%;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    padding-right: 16px;
+    font-size: 1.15rem;
+}
+/* div{
+    height: 7px;
+    background-color: gray;
+    margin: 2px 0 2px 0;
+
+} */

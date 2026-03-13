@@ -1,0 +1,211 @@
+/* Container for all restaurant items, lays out in a row */
+.restaurant_container {
+    /* display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 20px; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: 80px;
+
+
+}
+
+/* Each item container stacks image and name vertically */
+.rest_items {
+    margin-left: 50px;
+    /* height: 189px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    border-radius: 16px;
+
+
+}
+
+
+.image_container {
+    position: relative;
+    width: 326px;
+    height: 340px;
+    border-radius: 5px;
+}
+
+/* Image styling */
+.restaurant_image {
+    border-radius: 16px 16px 0px 0px;
+    transition: opacity 0.5s;
+    opacity: 1;
+    width: 326px;
+    height: 189px;
+    position: relative;
+
+}
+
+.rest_data {
+    position: absolute;
+    /* bottom:180px; */
+    top: 125px;
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    /* padding: 10px; */
+    box-sizing: border-box;
+    color: white;
+    /* Make sure text is visible */
+}
+
+.restName {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 20px;
+    /* line-height: 24px;    */
+    color: rgb(250, 248, 248);
+    overflow: hidden;
+    width: 100%;
+    overflow-wrap: break-word;
+    padding-left: 7px;
+
+}
+
+.rest_rating {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 7px;
+    color: rgb(255, 255, 255);
+}
+
+.rating_image {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+
+}
+
+.rating_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.restCuisines {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 25px;
+}
+
+.cuisines {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
+    margin-left: 7px;
+
+}
+
+.dish_rate {
+    margin-right: 5px;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 13px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.restDist {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 0px;
+}
+
+.location_info {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 13px;
+    color: rgba(2, 6, 12, 0.6);
+    margin-left: 7px;
+
+
+}
+
+.rest_distance {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 13px;
+    color: rgba(2, 6, 12, 0.6);
+    margin-right: 7px;
+}
+
+.offer {
+    display: flex;
+    /* -webkit-box-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--Light-Comms-Positive-Sub, #c8f9e5);
+    margin-top: 12px;
+    width: 302px;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.offertag {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(27, 166, 114);
+}
+
+.offertag p {
+    text-decoration: none;
+}
+
+.table_booking {
+    display: flex;
+    padding: 2px 8px;
+    align-items: center;
+    gap: 5px;
+    width: 110px;
+    border-radius: 12px;
+    background: var(--Light-Button-Background-Tertiary---Low, #f0f0f5);
+    margin-left: 8px;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.DineOut a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px)and (min-width:320px){
+    
+    .restaurant_container{
+         display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    overflow-x: auto;
+    padding: 2px 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+    .rest_items{
+        max-width: 1200px;
+        
+    }
+    
+}

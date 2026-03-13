@@ -1,0 +1,52 @@
+.restmenuContainer {
+    display: flex;
+    margin: 20px;
+    min-height: 36px;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    overflow-x: scroll;
+    gap:10px;
+}
+
+.btnForveg,.btnFornonveg {
+    display: flex;
+    width: auto;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    padding: 0px 16px;
+    height: 34px;
+    transition: max-width 0.25s ease-in-out;
+    max-width: 72px;
+}
+.vegcheckbox{
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 10px;
+}
+.veg{
+    position: absolute;
+    cursor: pointer;
+    inset: 0px;
+    background-color: rgba(2, 6, 12, 0.15);
+    transition: 0.25s;
+    border-radius: 16px;
+}
+.restMenu{
+     margin-left: 50px ;
+     margin-right: 50px;
+     color: rgb(197, 82, 82);
+}
+
+.SearchButton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(2, 6, 12, 0.1);
+    -webkit-box-pack: center;
+    justify-content: center;
+}

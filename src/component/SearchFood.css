@@ -1,0 +1,14 @@
+.inputContainer{
+    width:80%;
+    margin: auto;
+    margin-top:20px;
+}
+
+
+.inputforsearch{
+    width: 100%;
+    padding:4px 0 0 10px;
+    font-size: bold;
+    border-radius: 5px;
+    height: 75px;
+}

@@ -1,0 +1,56 @@
+.food_options {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.food_image {
+    height: 180px;
+    width: 143px;
+}
+
+.food_options h1 {
+    margin-left: 50px;
+}
+
+
+
+.ShopOnGroceries {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+
+
+.ShopOnGroceries .food_image {
+    height: 180px;
+    width: 147px;
+}
+
+.ShopOnGroceries p {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+
+@media (max-width: 1200px)and (min-width:320px){
+    .food_options {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    /* align-items: center;
+    justify-content: center; */
+}
+}
