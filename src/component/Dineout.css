@@ -207,5 +207,11 @@
         max-width: 1200px;
         
     }
+    .restaurant_container h1{
+        font-size: 17px;
+    }
     
+    .DineOut h1{
+        font-size: 17px;
+    }
 }

@@ -74,13 +74,13 @@ a {
     color: rgba(2, 6, 12, 0.92);
 }
 .exploreeveryrestaurant{
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
-    margin: 20px 16px 16px;
+    /* margin: 20px 16px 16px; */
     gap: 10px;
+
     height: auto;
-    margin-left: 150px;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
@@ -117,8 +117,19 @@ a {
         flex-direction: column;
         gap: 2px;
     } */
-    .bestplacesheading{
-        text-align: left;
-        font-size: 16px;
+    .bestplacesheading h2{
+     
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .exploreeveryrestaurantheading{
+        font-size: 17px;
+    }
+    .exploreeveryrestaurant{
+        display: flex;
+        flex-direction: row;
     }
 }

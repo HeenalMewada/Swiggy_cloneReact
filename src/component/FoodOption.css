@@ -48,8 +48,8 @@
     display: flex;
     flex-direction: column;
     padding: 2px 0;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 5px;
+    /* margin-right: 2px; */
     /* align-items: center;
     justify-content: center; */
 }

@@ -10,6 +10,7 @@ const Footer = () => {
        <a href="https://itunes.apple.com/in/app/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"> <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png" alt="" className='playstorebutton' /></a>
       </div>
       <div className="footerWidget">
+        <div className="logoandcontact">
         <div className="swiggy_logo">
           <img src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" alt="" style={{ height: "48px", width: "160px" }} />
           <p>© 2025 Swiggy Limited</p>
@@ -38,6 +39,8 @@ const Footer = () => {
               <li>Ride with us</li>
             </ul>
           </div>
+          </div>
+          </div>
           <div className="legalterms" style={{paddingTop:"70px"}}>
             <ul>
               <h1>Legal</h1>
@@ -47,7 +50,7 @@ const Footer = () => {
                 <li>  Investor Relations</li>
             </ul>
           </div>
-        </div>
+        
         <div className="availablein">
           <ul>
             <h1>Available in</h1>

@@ -85,7 +85,10 @@ padding-left: 7px;
     max-width: 100%; /* Remove max-width constraints if any */
     background-color: rgb(240, 240, 245);
     box-sizing: border-box; /* Include padding in width if needed */
-  }
+  
+    
+
+}
     .footerWidget{
         
          display: flex;
