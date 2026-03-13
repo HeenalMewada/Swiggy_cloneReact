@@ -210,15 +210,17 @@
   /* Header links: vertical list */
   .header_links {
     flex-direction: row;
-    gap: 5px;
+    gap: 20px;
+    justify-content: flex-start;
     margin-top: 5px;
+    font-size: 7px;
     
   }
 
   /* Buttons: smaller padding and font */
   .btn1, .btn2 {
-    padding: 10px 12px;
-    font-size: 10px;
+    padding: 7px 30px;
+    /* font-size: 7px; */
   }
 
   /* Middle section: stacked images and heading */
@@ -273,13 +275,13 @@
   /* Footer: stack images vertically */
   .footer_of_header {
     flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 2px;
+    margin-top: 7px;
   }
 
   /* Footer images: full width */
   .images_of_swiggy {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
   }
 }
