@@ -44,13 +44,20 @@
 }
 
 @media (max-width: 1200px)and (min-width:320px){
-    .food_options {
+    .food_options .food_image {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 2px 0;
     margin-left: 2px;
     margin-right: 2px;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+.ShopOnGroceries{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 0;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 }

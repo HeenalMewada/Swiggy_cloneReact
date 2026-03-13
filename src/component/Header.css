@@ -207,6 +207,7 @@
   font-size: 7px;
   margin-top: 2px;
 }
+
   /* Header links: vertical list */
   .header_links {
     flex-direction: row;
@@ -239,7 +240,7 @@
   }
 
   .input1,.input2{
-    width: 60%;
+    width: 40%;
     
   }
 
