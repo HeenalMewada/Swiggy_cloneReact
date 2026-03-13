@@ -29,7 +29,7 @@ const FoodOption = () => {
                 </div>
             </div>
 
-<h1 style={{ marginLeft: "100px"}}>Shop groceries on instamart</h1>
+<h1 style={{ marginLeft: "100px"}} class="shopHeading">Shop groceries on instamart</h1>
             <div className='ShopOnGroceries'>
 
                 

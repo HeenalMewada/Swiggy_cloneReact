@@ -44,20 +44,26 @@
 }
 
 @media (max-width: 1200px)and (min-width:320px){
-    .food_options .food_image {
+    .food_options {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 2px 0;
     margin-left: 2px;
     margin-right: 2px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+.food_options h1{
+     /* margin-left: 2px; */
+    text-align: left;
 }
 .ShopOnGroceries{
-    display: flex;
-    flex-direction: row;
-    padding: 2px 0;
+     padding: 2px 0;
     margin-left: 2px;
     margin-right: 2px;
+}
+.shopHeading{
+    /* margin-left: 2px; */
+    text-align: left;
 }
 }
