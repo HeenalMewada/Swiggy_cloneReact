@@ -211,7 +211,7 @@
   /* Header links: vertical list */
   .header_links {
     flex-direction: row;
-    gap: 20px;
+    gap: 17px;
     justify-content: flex-start;
     margin-top: 5px;
     font-size: 7px;
@@ -220,7 +220,7 @@
 
   /* Buttons: smaller padding and font */
   .btn1, .btn2 {
-    padding: 7px 20px;
+    padding: 7px 15px;
     /* font-size: 7px; */
   }
 
@@ -249,8 +249,8 @@
   }
   /* Header heading: smaller font size and width */
   .header_heading {
-    font-size: 16px;
-    width: 90%;
+    font-size: 15px;
+    width: 80%;
     padding: 10px 10px;
     text-align: center;
   }

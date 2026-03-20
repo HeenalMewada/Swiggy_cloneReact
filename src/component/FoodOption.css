@@ -10,9 +10,9 @@
     width: 143px;
 }
 
-.food_options h1 {
+/* .food_options h1 {
     margin-left: 50px;
-}
+} */
 
 
 
@@ -53,19 +53,13 @@
     /* align-items: center;
     justify-content: center; */
 }
-.food_options h1{
-     /* margin-left: 2px; */
-    text-align: left;
-}
+
 .ShopOnGroceries{
      padding: 2px 0;
     margin-left: 2px;
     margin-right: 2px;
 }
-.shopHeading{
-    /* margin-left: 2px; */
-    text-align: left;
-}
+
 .ShopOnGroceries .food_image{
     display: flex;
     flex-direction: column;

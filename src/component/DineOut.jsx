@@ -6,7 +6,7 @@ const DineOut = () => {
   return (
     <div className='DineOut'>
 
-      <h1 style={{ marginLeft: "150px" }}>Discover best restaurants on Dineout</h1>
+      <h1>Discover best restaurants on Dineout</h1>
       <div className='restaurant_container'>
         {
           dineOut.map((food) => {
