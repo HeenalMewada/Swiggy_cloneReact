@@ -66,4 +66,10 @@
     /* margin-left: 2px; */
     text-align: left;
 }
+.ShopOnGroceries .food_image{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0;
+    margin-left: 5px;
+}
 }

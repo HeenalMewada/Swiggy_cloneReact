@@ -15,6 +15,7 @@ const Footer = () => {
           <img src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" alt="" style={{ height: "48px", width: "160px" }} />
           <p>© 2025 Swiggy Limited</p>
         </div>
+        <div className="group">
         <div className="company">
           <ul>
             <h1>Company</h1>
@@ -41,6 +42,8 @@ const Footer = () => {
           </div>
           </div>
           </div>
+          </div>
+          <div className="group">
           <div className="legalterms" style={{paddingTop:"70px"}}>
             <ul>
               <h1>Legal</h1>
@@ -61,6 +64,7 @@ const Footer = () => {
             <li> <a href="https://www.swiggy.com/city/mumbai">Mumbai</a></li>
             <li><a href="https://www.swiggy.com/city/pune"> Pune</a></li>
           </ul>
+        </div>
         </div>
         <div className="lifeatswiggy">
           <ul>
