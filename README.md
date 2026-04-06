@@ -45,7 +45,6 @@ A production-deployed food ordering app built with React, Redux, and React Route
 src/
 ├── components/
 │   ├── Header/          # Navbar with cart icon
-│   ├── Body/            # Restaurant listing page
 │   ├── RestaurantCard/  # Individual restaurant card
 │   ├── RestaurantMenu/  # Menu page for selected restaurant
 │   ├── Cart/            # Cart page
