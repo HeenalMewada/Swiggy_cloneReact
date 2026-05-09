@@ -63,7 +63,6 @@ src/
 ## ⚙️ Getting Started
 
 ### Prerequisites
-- Node.js v18+
 - npm
 
 ### Installation
